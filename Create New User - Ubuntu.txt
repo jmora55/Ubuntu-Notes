@@ -5,10 +5,10 @@ NOTE: Do not add user to SUDO group if user is not meant to be Admin (No -G sudo
 -G is to add a user to a group for ex: Finance 
 
 
--s /bin/bash – Set /bin/bash as login shell of the new account
--d /home/{dirname/username}/ – Set /home/{dirname/username}/ as home directory for new Ubuntu account
--m – create home directory for {user}
--G – add to group - {sudo} give admin access to the new account
+-s /bin/bash = set /bin/bash as login shell of the new account
+-d /home/{dirname/username}/ = set /home/{dirname/username}/ as home directory for new Ubuntu account
+-m = create a home directory for {user}
+-G = add to group - {sudo} give admin access to the new account
 
 $ sudo useradd -s /bin/bash -d /home/{directoryname}/ -m -G {group} {username} 
 $ sudo passwd {username}
