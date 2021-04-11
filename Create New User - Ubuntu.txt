@@ -18,3 +18,8 @@ Example:# sudo useradd -s /bin/bash -d /home/testuser/ -m -G sudo testuser
 Note: check sudo user group command
 
 awk -F':' '{ print $1}' /etc/passwd
+
+
+#### CHANGE USERS IN TERMINAL ####
+
+su (username)
